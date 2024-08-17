@@ -56,3 +56,24 @@ p {
 tr:hover {
     background-color: #f1f1f1;
 }
+
+/* Model Header Styles */
+th {
+    background-color: #4CAF50; /* Green background for model names */
+    color: white;
+}
+
+/* Alternate Row Colors for Better Readability */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light gray for even rows */
+}
+
+tr:nth-child(odd) {
+    background-color: #ffffff; /* White for odd rows */
+}
+
+/* Responsive Video Styles */
+video {
+    max-width: 100%; /* Ensure videos are responsive */
+    height: auto; /* Maintain aspect ratio */
+}
